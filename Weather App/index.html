@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="picture/Yellow and Blue Weather Icon Company Logo.png">
+</head>
+<body>
+
+
+     <img  class="logo" src="picture/Yellow and Blue Weather Icon Company Logo.png">
+     <div class="title">
+        <h1>WEATHER APP</h1>
+     </div>
+     <div class="weather">
+        <div class="search">
+            <input class="city-search" type="text" placeholder="Search for a City" spellcheck="false">
+
+            <button class="search-button"><img src="picture/search-bar.png"></button>
+        </div>
+        <div class="forecast" style="display: none;">
+            <img src="picture/rainy-day.png" class="weather-icon">
+            <h2 class="city">Legazpi</h2>
+            <h1 class="temp">22°c</h1>
+        </div>
+     
+        <selection class="five-forecast" style="display: none;">
+            <div class="forecast-item">
+               <h5 class="forecast-date">10 Nov</h5>
+               <img src="picture/cloudy-day.png" alt="" class="forecast">
+               <h5 class="forecast-temp">29°C</h5>
+            <div class="forecast-item">
+                <h5 class="forecast-date">10 Nov</h5>
+                <img src="picture/cloudy-day.png" alt="" class="forecast">
+                <h5 class="forecast-temp">29°C</h5>
+             </div>
+             <div class="forecast-item">
+                <h5 class="forecast-date">10 Nov</h5>
+                <img src="picture/cloudy-day.png" alt="" class="forecast">
+                <h5 class="forecast-temp">29°C</h5>
+             </div>
+             <div class="forecast-item">
+                <h5 class="forecast-date">10 Nov</h5>
+                <img src="picture/cloudy-day.png" alt="" class="forecast">
+                <h5 class="forecast-temp">29°C</h5>
+             </div>
+             <div class="forecast-item">
+                <h5 class="forecast-date">10 Nov</h5>
+                <img src="picture/cloudy-day.png" alt="" class="forecast">
+                <h5 class="forecast-temp">29°C</h5>
+             </div>
+            </div>
+         </section>
+        <section class="search-city search-message" >
+              <img src="picture/search-findout.png">
+               <div>
+                  <h1>Search City</h1>
+                  <h4 class="regular-txt">
+                     Find Out the Weather of the City
+                  </h4>
+               </div>
+        </section>
+
+
+    </div> 
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
